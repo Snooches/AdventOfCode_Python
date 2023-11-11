@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fb7481f3-f88e-48f2-b973-6771853ea506</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AdventOfCode2018.py</StartupFile>
+    <StartupFile>Day01.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AdventOfCode2018.py" />
+    <Compile Include="Day01.py" />
+    <Compile Include="Utilities.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Input\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Input\Day01.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
